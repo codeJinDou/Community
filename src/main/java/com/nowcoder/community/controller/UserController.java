@@ -35,7 +35,7 @@ public class UserController implements CommunityConstant {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
-    @Value("${community.path.upload}")
+    @Value("${comnunity.path.upload}")
     private String uploadPath;
 
     @Value("${community.path.domain}")
